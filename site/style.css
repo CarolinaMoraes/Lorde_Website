@@ -1,0 +1,311 @@
+@font-face{
+	font-family : "Avenir Light";
+	src: url('media/AvenirLTStd-Light.otf')
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+*{
+	font-family: "Avenir Light";
+	color: white;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+a.deco-none {
+    color: white;
+    text-decoration:none;
+}
+
+a.deco-none:hover{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;
+}
+
+.hero-image{
+	height: 100%;
+	width: 100%;
+	background-image: url("../design/fonts/lorde/apresentacao.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ 	margin: 0px 0px;
+ 	padding: 0px;
+  
+}
+.tituloNoMeio {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.tituloNoMeio h1{
+	font-size: 1000%;
+	margin-bottom: 0px;
+}
+
+.tituloNoMeio p{
+	margin-top: 0px;
+	font-size: 180%;
+}
+
+
+
+
+#cabecalho{
+width: 100%;
+
+}
+
+#cabecalho nav{
+display: block;
+min-width: 300px;
+}
+
+
+#cabecalho nav a{
+padding-right: 50px;
+font-size: 200%;
+color: white;
+transition: color .2s;
+}
+
+
+#cabecalho nav a:hover{
+	color: black;
+}
+
+
+.linkDireita{
+text-align: right;
+}
+
+
+
+
+.clara h2{
+margin-top: 0px;
+padding-top: 2%;
+text-align: center;
+font-family: "Avenir Light";
+font-size: 62px;
+color: white;
+}
+
+
+.escura h2{
+margin-top: 0px;
+padding-top: 2%;
+text-align: center;
+font-family: "Avenir Light";
+font-size: 62px;
+color: black;
+}
+
+
+.paragrafo-claro{
+	color: white;
+	font-size: 35px;
+	text-align: justify;
+}
+
+
+.paragrafo-escuro{
+	color: black;
+	font-size: 35px;
+	text-align: justify;
+
+}
+
+
+
+#aboutHer{
+	min-height: 1000px;
+	background-image: url("../design/fonts/lorde/segundaparte.jpg");
+
+}
+
+#aboutHer p{
+
+	margin: 0px 32px 0px auto;
+	padding: 32px;
+	width: 35%;
+    background-color: rgba(0, 31, 41, 0.2);
+
+}
+
+
+#fileira{
+
+	background-image: /*linear-gradient:(0deg, rgb(0, 10, 21), rgb (0, 10, 0));*/
+	linear-gradient(90deg, rgba(0, 10, 21, 100), rgba(0, 30, 40, 100), rgba(0, 27, 37, 100), rgba(0, 10, 10, 100));
+	background-size: cover;
+
+
+}
+
+.imagens{
+	flex-wrap: wrap;
+	display: flex;	
+ 	justify-content: space-around;
+	
+}
+
+.imagens img{
+
+	
+	flex-basis: 400px;
+	flex: 1;
+	flex-grow: 0;
+	width: 100%;
+	max-width: 600px;
+	padding-left: 5%;
+	z-index: 10;
+}
+
+
+
+
+.fundo{
+	
+	width: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 	margin: 0px 0px;
+ 	padding: 0px;
+}
+
+#albums{
+	background-image: url("../design/fonts/lorde/maisformato1.jpg");
+	background-attachment: fixed;
+}	
+
+#albums h2{
+	font-size: 62px;
+    margin-bottom: 0px;
+    margin-bottom: 48px;
+}
+
+.capas{
+	flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.capas figure{
+	margin-left: 10%;
+}
+
+
+figurecaption.paragrafo-escuro{
+	margin-left: auto;
+    font-size: 32px;
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.capas img{
+	flex: 1;
+    max-width: 600px;
+    min-width: 300px;}
+
+
+#concerts{
+	background-color: black;
+	background-size: cover;
+	text-align: center;
+}	
+#concerts h4{
+	margin-bottom: 20px;
+}
+
+#concerts p{
+	margin: 0px auto 0px auto;
+	padding: 32px;
+	width: 50%;
+	text-align: center;
+}
+
+#perfectPlaces{
+	background-image: url("../design/fonts/lorde/maisformato2.jpg");
+	background-attachment: fixed;
+	text-align: center;
+}
+
+#perfectPlaces p{
+	margin: 0px auto 0px auto;
+	padding: 32px;
+	text-align: center;
+	width: 60%;
+}
+
+#perfectPlaces video{
+	width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#newsletter{
+	background-image: url("../design/fonts/lorde/banner.jpg");
+}
+
+.formularios{
+    margin-left: 10%;
+    width: 40%;
+    margin-top: 48px;
+}
+
+.formularios input{
+   width: 100%;
+    border-style: none;
+}
+
+
+.formularios label{
+	margin: 0px;
+}
+
+.formularios button{
+	font-size: 30px;
+    border-style: none;
+    margin-left: 10%;
+    margin-top: 32px;
+    color: black;
+    width: 25%;
+    color: black;
+    background-color: rgb(223,223,223);
+    margin-bottom: 12%;
+    transition: background-color .2s;
+    transition: color .2s;
+    height: 50px;
+}
+
+.formularios button:hover{
+	background-color: grey;
+	color: white;
+}
