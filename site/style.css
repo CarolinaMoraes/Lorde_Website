@@ -206,16 +206,10 @@ color: black;
 }
 
 .capas{
-	flex-wrap: wrap;
-    display: flex;
-    margin: 0 auto;
     text-align: center;
     vertical-align: middle;
 }
 
-.capas figure{
-	margin-left: 10%;
-}
 
 
 figurecaption.paragrafo-escuro{
