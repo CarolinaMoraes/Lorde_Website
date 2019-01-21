@@ -206,11 +206,13 @@ color: black;
 }
 
 .capas{
+	flex-wrap: wrap;
+	justify-content:center;
+    display: flex;
+    margin: 0 auto;
     text-align: center;
     vertical-align: middle;
-    height: 100%;
 }
-
 
 
 figurecaption.paragrafo-escuro{
@@ -222,12 +224,6 @@ figurecaption.paragrafo-escuro{
     margin-right: auto;
     margin-bottom: 5%;
 }
-
-.capas img{
-	flex: 1;
-    max-width: 600px;
-    min-width: 300px;}
-
 
 #concerts{
 	background-color: black;
